@@ -1,17 +1,75 @@
-#sect1{
+
+/* customisation banner */
+#sectbanner{
     background-color:black ;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-h1{
+#sectbanner h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2rem auto;
+    font-size: 1.7rem;
 }
-img{
+#sectbanner img{
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin: 0 auto;
+}
+#sectbanner button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    transition: 0.25 ease;
+}
+#sectbanner button:hover{
+
+    background-color:rgb(133, 59, 143) ;
+}
+
+/* customisation description */
+#description{
+    font-size: 1.5rem;
+}
+
+/* customisation gaming */
+#gaming{
+height: 70vh;
+background-color: black;
+color: white;
+margin: 2rem auto;
+}
+
+#gaming .img-container{
+    padding-top:2rem;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+#gaming .personnage {
+    position: relative;
+ }
+
+#gaming .btn-rdv {
+    color: white;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: black; 
+    border: 1px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#gaming .btn-rdv:hover {
+    background-color:rgb(133, 59, 143);
 }
