@@ -4,6 +4,8 @@ PURPLE : R 133  G 59  B 143
 
 */
 
+
+/**************************************************FONTS */
 @font-face {
     font-family:"Montserrat Medium";
     src: url(../fonts/Montserrat-Medium.ttf);
@@ -14,8 +16,15 @@ PURPLE : R 133  G 59  B 143
     src: url(../fonts/Montserrat-Bold.ttf);
 }
 
+@font-face {
+    font-family:"Montserrat SemiBold";
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+
+/********************************************************HEADER */
 header {
-    font-family:"Montserrat Bold";
+    font-family:"Montserrat SemiBold";
 }
 
 header ul {
@@ -44,4 +53,30 @@ nav .languageContainer {
     background-color:rgb(238, 238, 238);
     border-radius:20px;
     padding:5px 5px;
+}
+
+/***************************************************FOOTER */
+
+footer .partner-container {
+    background-color:black;
+    padding-bottom:3vh;
+}
+
+footer .partner-container h3 {
+    color:white;
+    padding-top:3vh;
+    padding-bottom:3vh;
+    text-transform:uppercase;
+    font-family: "Montserrat Bold";
+    font-size:18px;
+}
+
+footer .partner-container ul {
+    width:80%;
+}
+
+footer ul {
+    list-style: none;
+    padding:0;
+    margin:0;
 }
